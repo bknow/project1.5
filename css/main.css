@@ -1,3 +1,8 @@
+
+@-ms-viewport{
+  width: device-width;
+}
+
 h1{
   color: #0000ff;
  text-align: center;
@@ -68,4 +73,12 @@ li{
  padding:14px 16px;
  font-size: 24px;
  
+}
+a{
+  text-decoration:none;
+}
+
+li a:hover{
+  color:pink;
+  text-decoration:underline;
 }
